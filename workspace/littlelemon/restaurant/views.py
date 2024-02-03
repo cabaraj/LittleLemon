@@ -11,7 +11,6 @@ def index(request):
 
 
 class MenuItemView(generics.ListCreateAPIView):
-    '''only registered users will be able to access to the menu'''
     #permission_classes = [IsAuthenticated]
     queryset = Menu.objects.all()
     serializer_class = MenuSerializer
@@ -22,6 +21,7 @@ class SingleMenuItemView(generics.RetrieveUpdateAPIView, generics.DestroyAPIView
     serializer_class = MenuSerializer
 
 class BookingViewSet(viewsets.ModelViewSet):
+    '''only registered users will be able to access to the booking list'''
     permission_classes = [IsAuthenticated]
     queryset = Booking.objects.all()
     serializer_class = BookingSerializer
