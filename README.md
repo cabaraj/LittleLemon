@@ -1,10 +1,11 @@
-# LittleLemon
+# Back-End Developer Capstone Project
+## Django-developed Back-End application connected to MySQL for sustainability. Implemented APIs for Menu, Menu Items, and Table Reservations.
 
-API paths:
+### API paths:
 - restaurant/menu
 - restaurant/booking/tables
 
-To Commit the Project:
+### To Commit the Project:
   - git checkout lemonBranch
   - git add .
   - git commit -m ""
