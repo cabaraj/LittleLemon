@@ -15,4 +15,4 @@ class SingleItemSerializer(ModelSerializer):
 class BookingSerializer(ModelSerializer):
     class Meta:
         model = Booking
-        fields = '__all__'
+        fields = ['name','guests','date']
