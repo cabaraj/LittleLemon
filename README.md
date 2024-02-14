@@ -32,6 +32,6 @@ If want to create an admin user:
 ```python
 python manage.py createsuperuser
 ```
-use the '/admin' extension to access to the admin portal
+use the '/admin' endpoint to access to the admin portal
 
 NOTE: if plan to clone this repository, keep in mind to modify the database configurations to the appropriate ones based on your DataBase credentials. The database connects to a local database. Thus, the program will not have any data stored in it!
