@@ -8,7 +8,7 @@ Django-developed Back-End application connected to MySQL for sustainability. Imp
 ### Cloning the repository:
 1. Clone the repository (via HTTPS)
 ```bash
-git clone https://github.com/cabaraj/LittleLemon.git
+git clone https://github.com/cabaraj/LittleLemon-Capstone.git
 ```
 2. Create/activate a virtual environment
 ```python
